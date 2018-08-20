@@ -1,4 +1,4 @@
-# wifi_temperature_server
+# Wifi temperature server for NodeMCU / ESP8266
 Server part of a server/client temperature sensing system based on the ESP8266 NodeMCU with a DHT11 temperature sensor.
 
 ## Customization
@@ -16,6 +16,9 @@ On your computer, in your internet browser go to http://192.168.0.35. You'll e a
 This is a simple prototype, no security is implemented between the sensor and the server. 
 It means that any device connected to your local network can send fake temperature data to your server.
 So you maybe should not use this sensor to monitor the temperature of you nuclear power plant ;)
+
+## Client/sensor part of the project
+https://github.com/flowernert/wifi_temperature_sensor
 
 ## License
 Creative Commons BY-NC-SA
