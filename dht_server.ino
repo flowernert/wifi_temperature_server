@@ -9,7 +9,6 @@ ESP8266WebServer server(80);
 
 void putTemperature();//http put request handler
 void json_to_resource_update(JsonObject& jsonBody);
-void initTemperaturesResource();
 
 #define ID_INSIDE 0
 #define ID_SOUTH_SHADED 1
